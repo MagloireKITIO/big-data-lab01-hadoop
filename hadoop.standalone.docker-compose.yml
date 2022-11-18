@@ -9,7 +9,7 @@ services:
     container_name: hadoop-standalone-namenode
     hostname: namenode
     restart: unless-stopped
-    tty: true
+    tty: true   
     env_file:
       - ./.env
     volumes:
